@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+body {
+  font-family: "Castoro", serif;
+}
+:root {
+  --primary-color: #34d399;
+}
+.navigation {
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  padding: 1rem;
+  color: white;
+}
+.navigation .nav-brand {
+  font-weight: bold;
+  text-align: center;
+}
+
+.section {
+  padding: 0.5rem;
+}
+.section .img {
+  max-width: 35%;
+  display: block;
+  margin: auto;
+}
+.section .input {
+  text-align: center;
+}
+.section input {
+  height: 40px;
+  width: 35%;
+  font-size: 15px;
+  border-radius: 1rem;
+  border-color: #34d399;
+}
+.section h2 {
+  text-align: center;
+}
+.txt {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+p {
+  font-weight: bold;
+}
+span {
+  padding: 1rem;
+  font-size: 25px;
+}
